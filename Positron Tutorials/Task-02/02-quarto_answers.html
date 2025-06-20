@@ -1,0 +1,403 @@
+<table>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> id </th>
+   <th style="text-align:left;"> submission_type </th>
+   <th style="text-align:left;"> answer </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> tutorial-id </td>
+   <td style="text-align:left;"> none </td>
+   <td style="text-align:left;"> 02-quarto </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> name </td>
+   <td style="text-align:left;"> question </td>
+   <td style="text-align:left;"> Yasir khan </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> email </td>
+   <td style="text-align:left;"> question </td>
+   <td style="text-align:left;"> imyasir.308@gmail.com </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> quarto-1-1 </td>
+   <td style="text-align:left;"> question </td>
+   <td style="text-align:left;"> &gt; getwd()
+[1] "c:/Users/yasir/projects/tutorial-2" </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> quarto-1-2 </td>
+   <td style="text-align:left;"> question </td>
+   <td style="text-align:left;"> &gt; list.files()
+character(0) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> quarto-1-3 </td>
+   <td style="text-align:left;"> question </td>
+   <td style="text-align:left;"> &gt; list.files()
+[1] "quarto-1.qmd" </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> quarto-1-4 </td>
+   <td style="text-align:left;"> question </td>
+   <td style="text-align:left;"> &gt; tutorial.helpers::show_file("quarto-1.qmd", end=4)
+---
+title: "My First Quarto Document"
+format: html
+--- </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> quarto-1-5 </td>
+   <td style="text-align:left;"> question </td>
+   <td style="text-align:left;"> ---
+title: "My First Quarto Document"
+author: "Your Name"
+format: html
+--- </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> quarto-1-6 </td>
+   <td style="text-align:left;"> question </td>
+   <td style="text-align:left;"> &gt; list.files()
+[1] "quarto-1.html"  "quarto-1.qmd"   "quarto-1_files" </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> quarto-1-7 </td>
+   <td style="text-align:left;"> question </td>
+   <td style="text-align:left;"> &gt; tutorial.helpers::show_file("quarto-1.qmd", pattern="6")
+6+3
+&gt; </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> quarto-1-8 </td>
+   <td style="text-align:left;"> question </td>
+   <td style="text-align:left;"> &gt; tutorial.helpers::show_file("quarto-1.qmd")
+---
+title: "My First Quarto Document"
+format: html
+---
+
+This is my first Markdown text.
+&gt; </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> quarto-1-9 </td>
+   <td style="text-align:left;"> question </td>
+   <td style="text-align:left;"> My First Quarto Document
+This is my first Markdown text. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> quarto-1-10 </td>
+   <td style="text-align:left;"> question </td>
+   <td style="text-align:left;"> &gt; tutorial.helpers::show_file("quarto-1.qmd")
+---
+title: "My First Quarto Document"
+format: html
+---
+
+## My Header
+You can do a lot of cool things in Quarto like **bold** and *italic* text.
+&gt; </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> quarto-2-1 </td>
+   <td style="text-align:left;"> question </td>
+   <td style="text-align:left;"> &gt; list.files()
+[1] "quarto-1.html" 
+[2] "quarto-1.qmd"  
+[3] "quarto-1_files"
+[4] "quarto-2.qmd"  
+&gt; </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> quarto-2-2 </td>
+   <td style="text-align:left;"> question </td>
+   <td style="text-align:left;"> &gt; tutorial.helpers::show_file("quarto-2.qmd")
+---
+title: "My Second Quarto Document"
+format: html
+---
+
+
+```{r}
+
+```
+Warning message:
+In readLines(path) : incomplete final line found on 'quarto-2.qmd' </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> quarto-2-3 </td>
+   <td style="text-align:left;"> question </td>
+   <td style="text-align:left;"> My Second Quarto Document
+2 * 2
+
+[1] 4 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> quarto-2-4 </td>
+   <td style="text-align:left;"> question </td>
+   <td style="text-align:left;"> My Second Quarto Document
+[1] 4 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> quarto-2-5 </td>
+   <td style="text-align:left;"> question </td>
+   <td style="text-align:left;"> My Second Quarto Document
+[1] 4 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> quarto-2-6 </td>
+   <td style="text-align:left;"> question </td>
+   <td style="text-align:left;"> My Second Quarto Document
+library(tidyverse)
+
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ stringr   1.5.1
+✔ ggplot2   3.5.2     ✔ tibble    3.3.0
+✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+✔ purrr     1.0.4     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> quarto-2-7 </td>
+   <td style="text-align:left;"> question </td>
+   <td style="text-align:left;"> My Second Quarto Document
+library(tidyverse) </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> quarto-2-8 </td>
+   <td style="text-align:left;"> question </td>
+   <td style="text-align:left;"> My Second Quarto Document </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> quarto-2-9 </td>
+   <td style="text-align:left;"> question </td>
+   <td style="text-align:left;"> My Second Quarto Document </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> quarto-2-10 </td>
+   <td style="text-align:left;"> question </td>
+   <td style="text-align:left;"> &gt; pull(mtcars,1)
+ [1] 21.0 21.0 22.8 21.4 18.7 18.1
+ [7] 14.3 24.4 22.8 19.2 17.8 16.4
+[13] 17.3 15.2 10.4 10.4 14.7 32.4
+[19] 30.4 33.9 21.5 15.5 15.2 13.3
+[25] 19.2 27.3 26.0 30.4 15.8 19.7
+[31] 15.0 21.4
+&gt; </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> quarto-2-11 </td>
+   <td style="text-align:left;"> question </td>
+   <td style="text-align:left;"> &gt; tutorial.helpers::show_file("quarto-2.qmd", chunk="Last")
+ggplot(data=iris, mapping = aes(x=Sepal.Width, y=Sepal.Length, color=Species)) + geom_point()
+Warning message:
+In readLines(path) : incomplete final line found on 'quarto-2.qmd'
+&gt; </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> quarto-2-12 </td>
+   <td style="text-align:left;"> question </td>
+   <td style="text-align:left;"> &gt; tutorial.helpers::show_file("quarto-2.qmd", chunk="Last")
+ggplot(data=iris, mapping = aes(x=Sepal.Width, y=Sepal.Length, color=Species)) + geom_point()
+Warning message:
+In readLines(path) : incomplete final line found on 'quarto-2.qmd'
+&gt; </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> quarto-2-13 </td>
+   <td style="text-align:left;"> question </td>
+   <td style="text-align:left;"> &gt; tutorial.helpers::show_file("quarto-2.qmd", chunk = "Last")
+ggplot(data=iris, mapping = aes(x=Sepal.Width, y=Sepal.Length, color=Species)) + geom_point() + labs(title="Measurements for Different Species of Iris", subtitle="Virginica has the longest sepals", x="Sepal Width", y = "Sepal Length", caption="Fisher (1936)")
+Warning message:
+In readLines(path) : incomplete final line found on 'quarto-2.qmd'
+&gt; </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> quarto-3-1 </td>
+   <td style="text-align:left;"> question </td>
+   <td style="text-align:left;"> &gt; list.files()
+[1] "quarto-1.html" 
+[2] "quarto-1.qmd"  
+[3] "quarto-1_files"
+[4] "quarto-2.html" 
+[5] "quarto-2.qmd"  
+[6] "quarto-2_files"
+[7] "quarto-3.html" 
+[8] "quarto-3.qmd"  
+[9] "quarto-3_files" </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> quarto-3-2 </td>
+   <td style="text-align:left;"> question </td>
+   <td style="text-align:left;"> My Third Quarto Document
+Author
+Yasir khan
+
+x &lt;- 123456789 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> quarto-3-3 </td>
+   <td style="text-align:left;"> question </td>
+   <td style="text-align:left;"> &gt; tutorial.helpers::show_file("quarto-3.qmd", start = -20)
+---
+title: "My Third Quarto Document"
+author: Yasir khan
+format: html
+execute: 
+  echo: false
+---
+
+```{r}
+x &lt;- 123456789
+```
+&gt; </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> quarto-3-4 </td>
+   <td style="text-align:left;"> question </td>
+   <td style="text-align:left;"> My Third Quarto Document
+Author
+Yasir khan
+
+Error
+
+Validation of YAML front matter failed.
+In file quarto-3.qmd
+(line 5, columns 1--8) Field "execute" has empty value but it must instead be an object
+4: format: html
+5: execute: 
+          ~
+6: echo: false
+
+Render failed due to invalid YAML. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> quarto-3-5 </td>
+   <td style="text-align:left;"> question </td>
+   <td style="text-align:left;"> &gt; tutorial.helpers::show_file("quarto-3.qmd", start = -6)
+
+```{r}
+x &lt;- 123456789
+```
+
+The value of x is ?, a surprisingly high value. 
+&gt; </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> quarto-3-6 </td>
+   <td style="text-align:left;"> question </td>
+   <td style="text-align:left;"> My Third Quarto Document
+Author
+Yasir khan
+
+The value of x is 1.2345679\times 10^{8}, a surprisingly high value. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> quarto-3-7 </td>
+   <td style="text-align:left;"> question </td>
+   <td style="text-align:left;"> My Third Quarto Document
+Author
+Yasir khan
+
+The value of x is 123,456,789, a surprisingly high value. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> quarto-4-1 </td>
+   <td style="text-align:left;"> question </td>
+   <td style="text-align:left;"> &gt; search()
+ [1] ".GlobalEnv"       
+ [2] "tools:rstudio"    
+ [3] "tools:positron"   
+ [4] "package:stats"    
+ [5] "package:graphics" 
+ [6] "package:grDevices"
+ [7] "package:utils"    
+ [8] "package:datasets" 
+ [9] "package:methods"  
+[10] "Autoloads"        
+[11] "package:base"     
+&gt; </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> quarto-4-2 </td>
+   <td style="text-align:left;"> question </td>
+   <td style="text-align:left;"> &gt; tutorial.helpers::show_file("quarto-4.qmd")
+---
+title: "My Fourth Quarto Document"
+author: Yasir khan
+format: html
+---
+&gt; </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> quarto-4-3 </td>
+   <td style="text-align:left;"> question </td>
+   <td style="text-align:left;"> &gt; search()
+ [1] ".GlobalEnv"       
+ [2] "package:lubridate"
+ [3] "package:forcats"  
+ [4] "package:stringr"  
+ [5] "package:dplyr"    
+ [6] "package:purrr"    
+ [7] "package:readr"    
+ [8] "package:tidyr"    
+ [9] "package:tibble"   
+[10] "package:ggplot2"  
+[11] "package:tidyverse"
+[12] "tools:rstudio"    
+[13] "tools:positron"   
+[14] "package:stats"    
+[15] "package:graphics" 
+[16] "package:grDevices"
+[17] "package:utils"    
+[18] "package:datasets" 
+[19] "package:methods"  
+[20] "Autoloads"        
+[21] "package:base"     
+&gt; </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> quarto-4-4 </td>
+   <td style="text-align:left;"> question </td>
+   <td style="text-align:left;"> &gt; tutorial.helpers::show_file("quarto-4.qmd", chunk = "Last")
+#| label: setup
+#| echo: false
+#| message: false
+library(tidyverse)
+&gt; </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> quarto-4-5 </td>
+   <td style="text-align:left;"> question </td>
+   <td style="text-align:left;"> &gt; tutorial.helpers::show_file("quarto-4.qmd", chunk = "Last")
+#| label: setup
+#| echo: false
+#| message: false
+library(tidyverse)
+&gt; </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> quarto-4-6 </td>
+   <td style="text-align:left;"> question </td>
+   <td style="text-align:left;"> &gt; tutorial.helpers::show_file("quarto-4.qmd", chunk = "Last")
+#| label: setup
+#| echo: false
+#| message: false
+library(tidyverse)
+&gt; </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> minutes </td>
+   <td style="text-align:left;"> question </td>
+   <td style="text-align:left;"> 80 </td>
+  </tr>
+</tbody>
+</table>
